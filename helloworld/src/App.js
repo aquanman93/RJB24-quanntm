@@ -119,7 +119,7 @@ function Intro() {
   return (
     <>
       <div className="row">
-        <div className="col-md-6np">{userLeft.map((u) => render(u))}</div>
+        <div className="col-md-6">{userLeft.map((u) => render(u))}</div>
         <div className="col-md-6">{[...Array(3)].map(() => render(user))}</div>
       </div>
     </>
