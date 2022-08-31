@@ -37,6 +37,7 @@
   }
 }
 *{
-  width: 300px;
+  margin: auto;
+  width: 50vw;
   text-align: center;
 }
