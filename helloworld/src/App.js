@@ -93,7 +93,7 @@ function render(user) {
           className="card-img-top"
           src={user.avatarUrl}
           width="200"
-          height="300"
+          height="200"
           alt={formatName(user)}
           style={
             {
@@ -119,7 +119,7 @@ function Intro() {
   return (
     <>
       <div className="row">
-        <div className="col-md-6">{userLeft.map((u) => render(u))}</div>
+        <div className="col-md-6np">{userLeft.map((u) => render(u))}</div>
         <div className="col-md-6">{[...Array(3)].map(() => render(user))}</div>
       </div>
     </>
