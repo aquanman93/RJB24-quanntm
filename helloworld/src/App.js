@@ -180,6 +180,8 @@ import BB02 from "./02Homework/BB02.js";
 function App() {
   return(
     <>
+    <BB01 />
+
 <BB02 />
 </>
   )
