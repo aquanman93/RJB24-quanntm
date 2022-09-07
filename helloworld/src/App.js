@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Bai1 from './01Practice/Component/Bai1';
-import ColorExam from "./01Practice/Component/ColorExam";
+import BB01 from "./02Homework/BB01.js";
+import BB02 from "./02Homework/BB02.js";
 
 // let h =5;
 // for (let i=0; i<h; i++){
@@ -159,23 +159,30 @@ import ColorExam from "./01Practice/Component/ColorExam";
 //     text: "Data 1",
 //     color: "green",
 // };
-const arrayData = [
-    { id: 1, name: "Data 01" },
-    { id: 2, name: "Data 02" },
-    { id: 3, name: "Data 03" },
-  ];
+// const arrayData = [
+//     { id: 1, name: "Data 01" },
+//     { id: 2, name: "Data 02" },
+//     { id: 3, name: "Data 03" },
+//   ];
 
-const arrayColor = [
-    { id: 1, name: "red" },
-    { id: 2, name: "blue" },
-    { id: 3, name: "green" },
-  ];
+// const arrayColor = [
+//     { id: 1, name: "red" },
+//     { id: 2, name: "blue" },
+//     { id: 3, name: "green" },
+//   ];
 
+// function App() {
+//     return(
+//         <Bai1 input={data} number={1}/>
+//         <ColorExam data={arrayData} color={arrayColor}/>
+//     )
+// }
 function App() {
-    return(
-        <Bai1 input={data} number={1}/>
-        <ColorExam data={arrayData} color={arrayColor}/>
-    )
+  return(
+    <>
+<BB02 />
+</>
+  )
 }
 
 export default App;
