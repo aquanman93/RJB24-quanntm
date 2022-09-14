@@ -1,9 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+<<<<<<< HEAD
 import BB01 from "./02Homework/BB01.js";
 import BB02 from "./02Homework/BB02.js";
 import Header from "./01Practice/Header";
+=======
+import BB01 from "./02Homework/SS1/BB01.js";
+import BB02 from "./02Homework/SS1/BB02.js";
+>>>>>>> 9162a4e68eeb771a90ae32e68908c91970f35457
 
 // let h =5;
 // for (let i=0; i<h; i++){
