@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import BB01 from "./02Homework/BB01.js";
 import BB02 from "./02Homework/BB02.js";
+import Header from "./01Practice/Header";
 
 // let h =5;
 // for (let i=0; i<h; i++){
@@ -178,13 +179,13 @@ import BB02 from "./02Homework/BB02.js";
 //     )
 // }
 function App() {
-  return(
+  return (
     <>
-    <BB01 />
-
-<BB02 />
-</>
-  )
+      {/* <BB01 />
+      <BB02 /> */}
+      <Header />
+    </>
+  );
 }
 
 export default App;
