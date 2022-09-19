@@ -7,8 +7,8 @@ import "./App.css";
 // import Lifecyclehook from "./01Practice/lifecyclehook"
 // import Form from "./01Practice/Form";
 // import Router from "./01Practice/Router";
-// import Navi from "./01Practice/Navi";
-import BtRouter from "./01Practice/BtRouter";
+import Navi from "./01Practice/Navi";
+// import BtRouter from "./01Practice/BtRouter";
 
 
 
@@ -195,8 +195,8 @@ function App() {
       {/* <Lifecyclehook /> */}
       {/* <Form /> */}
       {/* <Router /> */}
-      {/* <Navi /> */}
-      <BtRouter />
+      <Navi />
+      {/* <BtRouter /> */}
     </>
   );
 }
